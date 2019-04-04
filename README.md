@@ -1,44 +1,58 @@
 # middleman-bootstrap4-template
 
-<div id="about">
-  <div class="about-content">
-    <h3>Some information about this template</h3>
+Project Title
+One Paragraph of project description goes here
 
-    <p>
-      We tried to provide an updated template, based on the one from Le Wagon (https://github.com/lewagon/middleman-template), permitting the use of Bootstrap 4 on Middleman, with just the right gems and config in order to deploy it easily.
-    </p>
-    <p>
-      <strong>
-        In anyway, if it is you first time you should go over Middleman documentation: https://middlemanapp.com/ <br>
-        Really well done and easy to understand.
-      </strong>
-    </p>
-    <p>
-      Moreover we used this opportunity to correct some bugs we were dealing with for deployement <br>
-      <em>
-        <ul class='content-left'>
-          <li>
-            we changed the actionview gem version to prevent a critical error from GitHub,
-          </li>
-          <li>
-            some gems have been removed, application.scss & application.js have been updated,
-          </li>
-          <li>
-            minify_javascipt has been commented, the js_include_tag has been moved after the yeild in the layout.html,
-          </li>
-          <li>
-            we added some comments here and there to help you on some subjects we encountered like i18n).
-          </li>
-        </ul>
-      </em>
-    </p>
-    <p>
-      Be warned, as we think that Fontawesome is too heavy we use .svg files.
-      Thus, Fontawesome gem / css config are not included in this template.
-    </p>
-    <p>
-      Hoping this will be helpful,
-    </p>
-    <p><strong>Benoit</strong></p>
-  </div>
-</div>
+Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+Prerequisites
+What things you need to install the software and how to install them
+
+Give examples
+Installing
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+Give the example
+And repeat
+
+until finished
+End with an example of getting some data out of the system or using it for a little demo
+
+Running the tests
+Explain how to run the automated tests for this system
+
+Break down into end to end tests
+Explain what these tests test and why
+
+Give an example
+And coding style tests
+Explain what these tests test and why
+
+Give an example
+Deployment
+Add additional notes about how to deploy this on a live system
+
+Built With
+Dropwizard - The web framework used
+Maven - Dependency Management
+ROME - Used to generate RSS Feeds
+Contributing
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+
+Versioning
+We use SemVer for versioning. For the versions available, see the tags on this repository.
+
+Authors
+Billie Thompson - Initial work - PurpleBooth
+See also the list of contributors who participated in this project.
+
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+Acknowledgments
+Hat tip to anyone whose code was used
+Inspiration
+etc
