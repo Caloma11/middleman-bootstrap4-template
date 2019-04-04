@@ -1,58 +1,25 @@
-# middleman-bootstrap4-template
+# Middleman Bootstrap4 Template (as of April 4, 2019)
 
-Project Title
-One Paragraph of project description goes here
+We tried to provide an updated template, based on the one from Le Wagon (https://github.com/lewagon/middleman-template), permitting the use of Bootstrap 4 on Middleman, with just the right gems and config in order to deploy it easily.
 
-Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Getting Started
 
-Prerequisites
-What things you need to install the software and how to install them
+In anyway, if it is you first time with Middleman you should go over their documentation: 
+https://middlemanapp.com/
+Really well done and easy to understand.
 
-Give examples
-Installing
-A step by step series of examples that tell you how to get a development env running
+### What we did
 
-Say what the step will be
+We used this opportunity to correct some bugs we were dealing with for deployement:
 
-Give the example
-And repeat
+* For Bootstrap 4 -> Some gems have been removed and added, application.scss & application.js have been updated,
+* We changed the actionview gem version to prevent a critical error from GitHub,
+* Minify_javascipt has been commented (did not work with the new config when trying to build for deployment),
+* The js_include_tag has been moved after the yeild in the layout.html (more convenient, prevent some errors bugs),
+* We added some comments here and there to help you on some subjects we encountered like i18n).
 
-until finished
-End with an example of getting some data out of the system or using it for a little demo
+Be warned, as we better like .svg files to Fontawesome, the gem/css config are not included in this template.
 
-Running the tests
-Explain how to run the automated tests for this system
+## Authors
 
-Break down into end to end tests
-Explain what these tests test and why
-
-Give an example
-And coding style tests
-Explain what these tests test and why
-
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
-
-Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
-
-Authors
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
+* **Benoit Calin** - *Initial work* - [LeWagon](https://github.com/lewagon/middleman-template)
